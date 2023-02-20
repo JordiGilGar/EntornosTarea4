@@ -1,10 +1,21 @@
-// Segunda rama: código refactorizado
+// Tercera rama: código documentado
 
 import java.util.Scanner;
 
+/**
+ * Clase Criba:
+ * Esta clase estática permite generar vectores de números primos mediante la criba de Erastótenes.
+ * @author Jordi G.G. (1º DAM/DAW)
+ * @version 1.0
+ * @see <a href="https://es.wikipedia.org/wiki/Criba_de_Erat%C3%B3stenes">Criba de Erastótenes</a>
+ */
 public class Criba {
 
-    // Generar números primos de 1 a max
+    /**
+     * Principal y única función pública de la clase. Genera un vector de números primos.
+     * @param max Parámetro para indicar qué número es el límite para la generación de números primos.
+     * @return Devuelve el vector de números primos generado.
+     */
     public static int[] generarPrimos (int max) {
         if (max >= 2) {
             boolean[] esPrimo = crearBooleanos(max + 1);
@@ -16,6 +27,11 @@ public class Criba {
         }
     }
 
+    /**
+     * Función privada que crea un vector de booleanos para poder hallar los números primos.
+     * @param dim Tamaño del vector de booleanos que se va a crear para la criba.
+     * @return Devuelve el vector de booleanos, con los números primos aún sin hallar.
+     */
     private static boolean[] crearBooleanos(int dim) {
         boolean[] esPrimo = new boolean[dim];
         for (int i = 0; i < dim; i++) {
@@ -24,6 +40,10 @@ public class Criba {
         return esPrimo;
     }
 
+    /**
+     * Función privada que tacha los números no primos, a partir de un vector de booleanos.
+     * @param esPrimo El vector de booleanos a partir del cual hallar los números primos.
+     */
     private static void hallarPrimos(boolean[] esPrimo) {
         for (int i = 2; i < (Math.sqrt(esPrimo.length) + 1); i++) {
             if (esPrimo[i]) {
@@ -35,6 +55,11 @@ public class Criba {
         }
     }
 
+    /**
+     * Función privada que cuenta la cantidad de números primos, en base a un vector de booleanos.
+     * @param esPrimo El vector de booleanos en el cual realizar la cuenta.
+     * @return Un valor int con el resultado de la cuenta.
+     */
     private static int contarPrimos(boolean[] esPrimo) {
         int cuenta = 0;
         for (boolean b : esPrimo) {
@@ -43,6 +68,11 @@ public class Criba {
         return cuenta;
     }
 
+    /**
+     * Función privada que devuelve el resultado de la criba, mediante un vector con los números primos hallados.
+     * @param esPrimo El vector de booleanos en base al cual se creará el vector.
+     * @return Devuelve el vector de números primos hallados.
+     */
     private static int[] crearVectorDePrimos(boolean[] esPrimo) {
         // Rellenar el vector de números primos
         int[] primos = new int[contarPrimos(esPrimo)];
@@ -54,6 +84,10 @@ public class Criba {
         return primos;
     }
 
+    /**
+     * Función principal del programa, que pide al usuario un número tope para el algoritmo de generación.
+     * @param args Argumentos del programa.
+     */
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce el número para la criba de Erastótenes: ");
@@ -72,6 +106,10 @@ public class Criba {
         }
     }
 
+    /**
+     * Función privada que ayuda a la impresión de líneas para el programa.
+     * @param i Índice de iteración en un bucle.
+     */
     private static void imprimirLinea(int i) {
         if (i % 10 == 0) {
             System.out.println();

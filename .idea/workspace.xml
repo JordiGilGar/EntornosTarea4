@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bed9273-f275-4517-8aaa-6aad7e710e18" name="Changes" comment="">
+    <list default="true" id="7bed9273-f275-4517-8aaa-6aad7e710e18" name="Changes" comment="Segundo commit a master">
+      <change afterPath="$PROJECT_DIR$/Doc/Criba.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/jquery-ui.overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/legal/COPYRIGHT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/legal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/legal/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/legal/jqueryUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script-dir/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Doc/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Criba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Criba.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,20 +60,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2LzwmJvIYbc7BXhjBe1vrLIijJa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -33,6 +91,30 @@
       <option name="presentableId" value="Default" />
       <updated>1676887378524</updated>
     </task>
+    <task id="LOCAL-00001" summary="Segundo commit a master">
+      <created>1676895766976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676895766976</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Segundo commit a master" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segundo commit a master" />
   </component>
 </project>
