@@ -61,19 +61,22 @@ public class Criba {
         int[] vector = new int[dato];
         System.out.println("\nVector inicial hasta: " + dato);
         for (int i = 0; i < vector.length; i++) {
-            if (i % 10 == 0) {
-                System.out.println();
-            }
+            imprimirLinea(i);
             System.out.print(i + 1 + "\t");
         }
         vector = generarPrimos(dato);
         System.out.println("\nVector de primos hasta: " + dato);
         for (int i = 0; i < vector.length; i++) {
-            if (i % 10 == 0) {
-                System.out.println();
-            }
+            imprimirLinea(i);
             System.out.print(vector[i] + "\t");
         }
     }
+
+    private static void imprimirLinea(int i) {
+        if (i % 10 == 0) {
+            System.out.println();
+        }
+    }
+
 
 }
